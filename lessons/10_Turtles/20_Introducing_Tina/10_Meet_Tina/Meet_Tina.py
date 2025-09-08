@@ -35,8 +35,8 @@ def head_pos(l=200):
 
 def draw_body(t, l = 200):
     """Draw the body of the turtle"""
-    t.pencolor('green')                  # Set the pen color to green
-    t.fillcolor('green')                 # Set the fill color to green
+    t.pencolor('purple')                  # Set the pen color to green
+    t.fillcolor('purple')                 # Set the fill color to green
     t.penup() 
     t.goto(0,0)                          # Move tina to the center of the screen
     t.setheading(-90)                    # Set the heading of tina to -90 degrees
@@ -57,8 +57,8 @@ def draw_leg(t, a, r=170, w=40, l=50):
     t.setheading(a)                      # Set the heading of tina to the angle
     t.forward(r)                         # Move tina forward by the radius
     t.pendown()
-    t.pencolor('brown')                  # Set the pen color to brown
-    t.fillcolor('brown')                 # Set the fill color to brown
+    t.pencolor('purple')                  # Set the pen color to brown
+    t.fillcolor('purple')                 # Set the fill color to brown
     t.begin_fill()
     t.left(90)                           # Turn tina left by 90 degrees
     t.forward(w/2)                       # Move tina forward by half the width
@@ -77,8 +77,8 @@ def draw_head():
     tina.penup()
     tina.goto(0, head_pos()-20)          # Move tina to the head position
     tina.pendown()
-    tina.pencolor('brown')               # Set the pen color to brown
-    tina.fillcolor('brown')              # Set the fill color to brown
+    tina.pencolor('purple')               # Set the pen color to brown
+    tina.fillcolor('purple')              # Set the fill color to brown
     tina.begin_fill()
     tina.circle(50)                      # Draw a circle with radius 50
     tina.end_fill()
@@ -88,7 +88,7 @@ def say_hello():
     tina.penup()
     tina.goto(75, head_pos()+75)         # Move tina to the position for the text
     tina.pendown()
-    tina.write("Hello! I'm Tina!", font=("Arial", 20, "normal"))  # Write the text
+    tina.write("porpol.", font=("Comic Sans MS", 20, "normal"))  # Write the text
 
 draw_head() 
 
