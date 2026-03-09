@@ -16,7 +16,7 @@ screen = turtle.Screen()
 screen.setup(width=800, height=600)
 
 # Change the background image
-screen.bgpic("/workspaces/Python-Apprentice/lessons/10_Turtles/images/sanic_64.png")
+screen.bgpic("/workspaces/Python-Apprentice-new/lessons/10_Turtles/images/sanic_64.png")
 
 # Create the turtle and change its shape to a moustache
 tash = turtle.Turtle()
